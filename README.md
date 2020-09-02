@@ -18,6 +18,7 @@
 - 本例包含Clover和OC两个引导，Boot文件夹中BOOTx64.efi是OC的（因为OC必须要从这里引导）；在将OC和Clover添加到EFI启动项的时候，OC的引导文件选择/EFI/Boot/BOOTx64.efi，而Clover则选择/EFI/Clover/CLOVERX64.efi。
 - 请自行重新生成config.plist中的序列号、主板序列号、SmUUID等信息，如果Clover和OC需要一起用，那么保证两者的信息一致，** 升级config的时候切记不要覆盖这些信息 ** 。
 - 本例中提供两个网卡版本的EFI（文件名区分），一个是机器原配的AX201无线网卡，另一个是自己更换DW1830无线网卡，如果有条件建议更换，体验更好。
+- ** AX201 网卡需要使用Apps中的HeliPort进行连接，请自行拖入Applications食用！ **
 
 ## 附加修复
 
