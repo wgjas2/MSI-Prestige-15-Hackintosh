@@ -23,7 +23,7 @@
 ## 附加修复
 
 - 耳机有杂音问题，使用ComboJack进行可选择切换，终端进入Attach/ComboJack/，执行 `./install.sh` 安装。
-- OC下声卡外放可能有启动无声或者唤醒无声问题，所以需要安装JackFix解决声卡重启问题，终端进入OC-Attach/JackFix/，执行 `sudo ./install.command` 安装（已经修改好声卡节点）。
+- OC下声卡外放可能有启动无声或者唤醒无声问题，**如果经常无声可以尝试**安装JackFix解决声卡重启问题，终端进入OC-Attach/JackFix/，执行 `sudo ./install.command` 安装（已经修改好声卡节点）。
 - 以上两个修复需要 VertStub.kext 驱动，已经加入Clover和OC，安装完后务必重启。
 
 ## 未驱动组件
@@ -36,6 +36,6 @@
 ## 已知问题
 
 - 引导偶尔会失败（Clover的失败概率比较大）
-- 触摸板偶尔可能失灵（睡眠后唤醒恢复）
+- 触摸板偶尔可能失灵
 - OC下无法引导Windows和Linux
 - 蓝牙丢失问题，丢失后在Windows中也不可见，需要关机拔电源后静置几秒再开机可解决
