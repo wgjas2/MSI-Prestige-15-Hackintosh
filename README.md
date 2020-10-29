@@ -1,6 +1,6 @@
 # MSI Prestige 15 Hackintosh
 
-本例由 hla63 的 [Modern-15-Hackintosh]: https://github.com/hla63/Msi-modern-15-Hackintosh 修改而来，已经完成Clover和OpenCore的适配，目前已经在10.15.6上正常使用。
+本例由 hla63 的 [Modern-15-Hackintosh]: https://github.com/hla63/Msi-modern-15-Hackintosh 修改而来，已经完成OpenCore~~和Clover~~（Clover版本不再维护）的适配，目前已经在10.15.6上正常使用。
 
 ## 机型信息
 
@@ -35,7 +35,7 @@
 
 ## 已知问题
 
-- 引导偶尔会失败（Clover的失败概率比较大）
-- 触摸板偶尔可能失灵
+- ~~引导偶尔会失败（Clover的失败概率比较大）~~（已修复）
+- 触摸板偶尔可能失灵（键盘驱动防误触造成的，可通过按两次Win+Prtscr恢复）
 - OC下无法引导Windows和Linux
-- 蓝牙丢失问题，丢失后在Windows中也不可见，需要关机拔电源后静置几秒再开机可解决
+- 蓝牙丢失问题，丢失后在Windows中也不可见，需要关机拔电源后静置几秒再开机可解决（硬件问题，正常开关机不会出现）
