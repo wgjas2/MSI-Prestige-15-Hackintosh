@@ -1,6 +1,6 @@
 # MSI Prestige 15 Hackintosh
 
-该项目为使用OpenCore引导MSI Prestige 15 32G 1TB 4K版笔记本黑苹果的EFI实例，OpenCore版本为0.6.3，适配Catalina(10.15.x)及Big Sur(11.0.x)，因为更换了无线网卡，所以提供原配AX201和替换DW1830两个版本的配置文件，请根据需要自行选择config文件进行引导。
+该项目为使用OpenCore引导MSI Prestige 15 32G 1TB 4K版笔记本黑苹果的EFI实例，OpenCore版本为0.6.8，适配Catalina(10.15.x)及Big Sur(11.0.x~11.3)，因为更换了无线网卡，所以提供原配AX201和替换DW1830两个版本的配置文件，请根据需要自行选择config文件进行引导。
 
 ## 硬件驱动说明
 
@@ -43,7 +43,7 @@
 
 ## 已知问题
 
-- **BigSur下内置屏幕无法使用4K60Hz完整帧率驱动，固使用修改原始EDID降低刷新率为48Hz后驱动（目前无法解决4K内屏60Hz问题），如果无法接受，请不要升级BigSur！！！**
+- （已修复）~~**BigSur下内置屏幕无法使用4K60Hz完整帧率驱动，固使用修改原始EDID降低刷新率为48Hz后驱动（目前无法解决4K内屏60Hz问题），如果无法接受，请不要升级BigSur！！！**~~
 - 触摸板偶尔可能失灵（键盘驱动防误触造成的，可通过按两次Win+Prtscr恢复）
 - 蓝牙丢失问题，丢失后在Windows中也不可见，需要关机拔电源后静置几秒再开机可解决（硬件问题，正常开关机不会出现）
 
@@ -57,6 +57,7 @@
 ## 驱动
 
 - https://github.com/acidanthera/OpenCorePkg
+- https://github.com/acidanthera/OcBinaryData
 - https://github.com/acidanthera/Lilu
 - https://github.com/acidanthera/VirtualSMC
 - https://github.com/acidanthera/AppleALC
