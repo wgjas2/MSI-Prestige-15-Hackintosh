@@ -1,6 +1,6 @@
 # MSI Prestige 15 Hackintosh
 
-该项目为使用OpenCore引导MSI Prestige 15 32G 1TB 4K版笔记本黑苹果的EFI实例，OpenCore版本为0.6.8，适配Catalina(10.15.x)及Big Sur(11.0.x~11.3)，因为更换了无线网卡，所以提供原配AX201和替换DW1830两个版本的配置文件，请根据需要自行选择config文件进行引导。
+该项目为使用OpenCore引导MSI Prestige 15 32G 1TB 4K版笔记本黑苹果的EFI实例，OpenCore版本为0.7.1，适配Catalina(10.15.x，OC0.6.3之后就不再测试了，请自行测试修改)及Big Sur(11.0.x~11.4)、Monterey(12.0 db1~3)，因为更换了无线网卡，所以提供原配AX201(更新后已经无条件测试，如果不行需自行摸索)和替换DW1830两个版本的配置文件，请根据需要自行选择config文件进行引导。
 
 ## 硬件驱动说明
 
