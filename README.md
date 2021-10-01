@@ -1,6 +1,6 @@
 # MSI Prestige 15 Hackintosh
 
-该项目为使用OpenCore引导MSI Prestige 15 32G 1TB 4K版笔记本黑苹果的EFI实例，OpenCore版本为0.7.1，适配Catalina(10.15.x，OC0.6.3之后就不再测试了，请自行测试修改)及Big Sur(11.0.x-11.4)、Monterey(12.0 db1-3)，因为更换了无线网卡，所以提供原配AX201(更新后已经无条件测试，如果不行需自行摸索)和替换DW1830两个版本的配置文件，请根据需要自行选择config文件进行引导。
+该项目为使用OpenCore引导MSI Prestige 15 32G 1TB 4K版笔记本黑苹果的EFI实例，OpenCore版本为0.7.3，适配Catalina(10.15.x，OC0.6.3之后就不再测试了，请自行测试修改)及Big Sur(11.0.x-11.6)、Monterey(12.0 db1-3)，因为更换了无线网卡，所以提供原配AX201(更新后已经无条件测试，如果不行需自行摸索)和替换DW1830两个版本的配置文件，请根据需要自行选择config文件进行引导。
 
 ## 硬件驱动说明
 
@@ -35,7 +35,7 @@
 
 - 耳机有杂音问题，使用ComboJack进行可选择切换，终端进入Attach/ComboJack/，执行 `./install.sh` 安装。
 - OC下声卡外放可能有启动无声或者唤醒无声问题，**如果经常无声可以尝试**安装JackFix解决声卡重启问题，终端进入OC-Attach/JackFix/，执行 `sudo ./install.command` 安装（已经修改好声卡节点）。
-- 以上两个修复需要 VertStub.kext 驱动，已经加入Clover和OC，安装完后务必重启。
+- 以上两个修复需要 VerbStub.kext 驱动，已经加入Clover和OC，安装完后务必重启。
 
 ## 未测试组件
 
