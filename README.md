@@ -1,6 +1,6 @@
 # MSI Prestige 15 Hackintosh
 
-该项目为使用OpenCore引导MSI Prestige 15 32G 1TB 4K版笔记本黑苹果的EFI实例，OpenCore版本为0.7.6，适配Big Sur(11.0.x-11.6.x)、Monterey(12.1)。
+该项目为使用OpenCore引导MSI Prestige 15 32G 1TB 4K版笔记本黑苹果的EFI实例，OpenCore版本为0.7.9，适配Big Sur(11.0.x-11.6.x)、Monterey(12.1~12.3)。
 
 ## 硬件驱动说明
 
